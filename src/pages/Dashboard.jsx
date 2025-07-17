@@ -16,7 +16,6 @@ export default function Dashboard() {
           lng: position.coords.longitude,
         });
         alert("Attendance marked with GPS location!");
-        // Later: Save to backend/local DB here
       },
       (error) => {
         alert("Failed to get location: " + error.message);
